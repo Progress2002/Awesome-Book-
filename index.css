@@ -16,6 +16,7 @@
 
 body {
   color: #000;
+  background-color: rgb(240, 245, 245);
 }
 
 h2 {
@@ -30,6 +31,7 @@ header {
   align-items: center;
   padding: 7px;
   margin-top: 2px;
+  background-color: #d3d3d3;
 }
 
 header .logo a {
@@ -44,7 +46,7 @@ header ul {
 }
 
 header ul li {
-  border-right: 1px solid #d4d2d2;
+  border-right: 1px solid #000;
   font-size: 16px;
   padding: 7px;
   margin: 0;
@@ -82,8 +84,10 @@ main {
 }
 
 #awesomeBooks {
-  border: 1px solid #d4d2d2;
+  border: 1px solid #3b3939;
+  border-radius: 10px;
   margin: 10px;
+  box-shadow: 6px 8px 10px #4e4c4c;
 }
 
 #awesomeBooks ul {
@@ -98,12 +102,13 @@ main {
   align-items: center;
 }
 
-#awesomeBooks li:nth-child(odd) {
+#awesomeBooks li:nth-child(even) {
   background-color: rgb(173, 170, 170);
 }
 
 #awesomeBooks li:hover {
   background-color: #52545a;
+  color: #fff;
 }
 
 #awesomeBooks li span {
@@ -164,7 +169,7 @@ form input:hover {
   margin: auto;
 }
 
-.hiden {
+.hidden {
   display: none;
 }
 
@@ -174,6 +179,7 @@ footer {
   width: 100%;
   border: 1px solid #d4d2d2;
   padding: 10px;
+  background-color: #d3d3d3;
 }
 
 footer p {
