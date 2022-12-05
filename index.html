@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    <h1>Hello world</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Awesome book</title>
+  </head>
+  <body>
+    <!-- Header section----------- -->
+    <header>
+      <div class="logo"><a href="#">Awesome Books</a></div>
+      <ul>
+        <li class="nav-link" id="list">List</li>
+        <li class="nav-link" id="add-new">Add new</li>
+        <li class="nav-link" id="contact-page">Contact</li>
+      </ul>
+    </header>
+    <p class="date"></p>
+    <main id="main">
+      <!-- List section--------- -->
+      <section class="list section" id="listpage">
+        <h1 class="title">All awesome Books</h1>
+        <ul id="awesomeBooks"></ul>
+      </section>
+      <!-- Form section-------- -->
+      <section class="form-section add-new hiden section" id="addpage">
+        <form action="">
+          <h2>Add a new book</h2>
+          <small id="error"></small>
+          <input type="text" name="title" id="title" placeholder="Title" />
+          <br />
+          <br />
+          <input type="text" name="author" id="author" placeholder="Author" />
+          <br />
+          <br />
+          <div class="form-btn">
+            <button type="submit" id="submit">Add</button>
+          </div>
+        </form>
+      </section>
+      <!-- Contact section---------- -->
+      <section class="contact section hiden" id="contactpage">
+        <h2>Contact information</h2>
+        <p>Do You have any question or you just want to say hello</p>
+        <p>You can reach out to us !</p>
+        <ul class="contact-list">
+          <li>Our e-mail : htetaung200071@gmail.com</li>
+          <li>Our phone number: +959954736061</li>
+          <li>Our address: @microvers</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright : &copy; Awesome Book 2022</p>
+    </footer>
     <script src="./index.js" type="module"></script>
-</body>
+  </body>
 </html>
