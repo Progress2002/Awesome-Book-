@@ -106,11 +106,6 @@ main {
   background-color: rgb(173, 170, 170);
 }
 
-#awesomeBooks li:hover {
-  background-color: #52545a;
-  color: #fff;
-}
-
 #awesomeBooks li span {
   font-weight: bold;
 }
